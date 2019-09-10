@@ -1,0 +1,16 @@
+
+.row_movies{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.row_movies > div{
+    padding: 10px;
+}
+
+.column_name{
+    font-weight: bold;
+    width: 200px;
+    padding-bottom: 8px;
+}

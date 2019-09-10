@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Bean.Movies" table="movies">
+      
+      <id name="movieid" column="MovieId" type="string"></id>
+      
+      <property name="moviename" column="MovieName" type="string" />
+      <property name="genre" column="Genre" type="string" />
+      <property name="sutradara" column="Sutradara" type="string" />
+      <property name="company" column="Company" type="string" />
+      <property name="category" column="Category" type="string" />
+      <property name="rating" column="Rating" type="integer" />
+      <property name="dataStart" column="DateStart" type="string" />
+      <property name="dateEnd" column="DateEnd" type="string" />
+      <property name="duration" column="Duration" type="integer" />
+      <property name="synopsis" column="Synopsis" type="string" />
+      <property name="image" column="Image" type="string" />
+      <property name="Note" column="Note" type="string" />
+      
+  </class>
+</hibernate-mapping>

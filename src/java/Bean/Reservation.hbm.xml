@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Bean.Reservation" table="reservation">
+       <composite-id>
+           <key-property name="movieid" column="movieid" type="string"/>
+           
+           <key-property name="reservationId" column="reservationid" type="string"/>
+       </composite-id>
+       
+       <property name='row' column='Row' type='character' />
+       <property name='seat' column='Seat' type='integer' />
+  </class>
+</hibernate-mapping>
